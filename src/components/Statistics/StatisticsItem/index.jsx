@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const StatisticsItem = stats => {
   const { label, percentage } = stats;
@@ -8,6 +8,11 @@ const StatisticsItem = stats => {
       <span className="percentage">{percentage}</span>
     </li>
   );
+};
+
+StatisticsItem.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
 
 export default StatisticsItem;
