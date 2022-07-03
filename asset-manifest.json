@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MatveyRubets/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/MatveyRubets/goit-react-hw-01-components.git/static/js/main.07d3183d.js",
+    "main.css": "/MatveyRubets/goit-react-hw-01-components.git/static/css/main.38fcca7e.css",
+    "main.js": "/MatveyRubets/goit-react-hw-01-components.git/static/js/main.8242c0ac.js",
     "index.html": "/MatveyRubets/goit-react-hw-01-components.git/index.html",
-    "main.7acaea2f.css.map": "/MatveyRubets/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/MatveyRubets/goit-react-hw-01-components.git/static/js/main.07d3183d.js.map"
+    "main.38fcca7e.css.map": "/MatveyRubets/goit-react-hw-01-components.git/static/css/main.38fcca7e.css.map",
+    "main.8242c0ac.js.map": "/MatveyRubets/goit-react-hw-01-components.git/static/js/main.8242c0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.38fcca7e.css",
+    "static/js/main.8242c0ac.js"
   ]
 }
