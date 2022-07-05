@@ -1,56 +1,71 @@
 .profile {
   display: flex;
+  width: 200px;
+  justify-content: center;
   flex-direction: column;
-  width: 300px;
-  text-align: center;
-  padding: 0;
+  align-items: center;
   margin-top: 10px;
   border: 1px solid #89898a;
   border-radius: 10px;
 }
-
 .description {
-  padding: 0 10px;
-  border: 2px red solid;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
+  display: block;
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
 }
-
 .name {
-  font-size: 22px;
   font-weight: bold;
+  margin: 0 0 10px 0;
+  font-size: 24px;
 }
-
 .tag {
+  margin: 0 0 10px 0;
+  font-size: 18px;
   color: #89898a;
 }
-
 .location {
+  margin: 0;
+  font-size: 18px;
   color: #89898a;
 }
 
 .stats {
-  list-style: none;
+  margin: 0;
   padding: 0;
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  padding: 0 10px;
+  background-color: rgb(243, 246, 250);
+  border-top: 1px solid #89898a;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.stats > li {
+.stats li {
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  border: 2px red solid;
-  gap: 5px;
+  align-items: center;
+}
+
+.stats li:not(:last-child) {
+  border-right: 1px solid #89898a;
 }
 
 .label {
-  color: #89898a;
+  font-size: 12px;
+  color: #474545;
+  margin-bottom: 5px;
 }
 
 .quantity {
+  font-size: 18px;
+  font-weight: bold;
 }

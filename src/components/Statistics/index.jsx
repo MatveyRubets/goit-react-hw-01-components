@@ -1,12 +1,14 @@
+import css from './index.module.css';
+
 import PropTypes from 'prop-types';
 import StatisticsItem from './StatisticsItem';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={css.statistics}>
+      {title && <h2 className={css.title}>{title}</h2>}
 
-      <ul className="stat-list">
+      <ul className={css.statList}>
         {stats.map(({ id, label, percentage }) => {
           return (
             <StatisticsItem key={id} label={label} percentage={percentage} />
